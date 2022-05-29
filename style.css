@@ -1,0 +1,185 @@
+body {
+    background-image: url("assets/Nexus-Blitz-Loading-Screen.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.borde-equipo-azul {
+    border: 4px solid #005ccc;
+    box-shadow: 2px 2px 2px 1px #0a2fca;
+}
+
+.borde-equipo-rojo {
+    border: 4px solid #9e1510;
+    box-shadow: 2px 2px 2px 1px #81100d;
+}
+
+.imagen-campeon {
+    /* height: 550px; */
+    height: 30rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.aatrox {
+    background-image: url("assets/aatrox.jpg");
+}
+
+.ahri {
+    background-image: url("assets/ahri.jpg");
+}
+
+.akali {
+    background-image: url("assets/akali.jpg");
+}
+
+.alistar {
+    background-image: url("assets/alistar.jpg");
+}
+
+.anivia {
+    background-image: url("assets/anivia.jpg");
+}
+
+.annie {
+    background-image: url("assets/annie.jpg");
+}
+
+.caitlyn {
+    background-image: url("assets/caitlyn.jpg");
+}
+
+.graves {
+    background-image: url("assets/graves.jpg");
+}
+
+.jinx {
+    background-image: url("assets/jinx.jpg");
+}
+
+.lucian {
+    background-image: url("assets/lucian.jpg");
+}
+
+article div.col div.card div.espacio-campeon {
+    height: 430px;
+    display: block;
+}
+
+.w-campeon {
+    max-width: 20rem;
+}
+
+.body-campeon {
+    color: white;
+    background-color: #00000060;
+}
+
+.nombre-jugador {
+    color: #d8c6a6;
+}
+
+.borde-equipo-rojo {
+    border: 4px solid #b50909;
+}
+
+.mt-invocador-hechizo {
+    margin-top: 6px;
+}
+
+.mt-invocador-runas {
+    margin-top: 16px;
+}
+
+img.hechizo-invocador {
+    width: 100%;
+    border: 2px solid gray;
+}
+
+img.icono-invocador {
+    width: 50px;
+    border: 2px solid goldenrod;
+    border-radius: 50%;
+}
+
+img.runa-grande {
+    width: 35px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+img.runa-pequeña {
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 20px;
+    border: 2px solid gray;
+    position: absolute;
+    margin-left: -7px;
+    border-radius: 50%;
+}
+
+.sabias-que {
+    color: #d8c6a6;
+    text-shadow: 4px 2px 1px black;
+}
+
+.consejo {
+    color: #dbd1be;
+    text-shadow: 2px 2px 4px black;
+}
+
+
+/* Spinner */
+
+.seccion-spinner {
+    display: block;
+    min-height: 50px;
+}
+
+.latencia {
+    color: #198754;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+    border: 8px solid #198754;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #198754 transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
